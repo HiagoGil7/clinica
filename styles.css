@@ -1,0 +1,20 @@
+@import url("styles/header.css");
+@import url("styles/consultas.css");
+@import URL("styles/footer.css");
+@import URL("styles/manu_flutuante.css");
+@import URL("styles/formulario.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+    --cor-de-fundo: #F8F7FC;
+    --cinza-escuro: #464646;
+    --cinza-claro: #A3A3A3;
+    --branco: #ffffff;
+    --laranja: #FFB050;
+    --azul: #4894FF;
+    
+
+    
+
+}

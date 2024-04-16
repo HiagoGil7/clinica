@@ -1,0 +1,38 @@
+.body {
+    width: 100%;
+    height: 100%;
+    font-family: "Montserrat";
+    background-color: var(--cor-de-fundo);
+}
+
+.cabecalho {
+    background-color: var(--cor-de-fundo);
+    display: flex;
+    padding: 2em 0;
+}
+
+.imagem__perfil--sonia {
+    padding: 0 1em;
+}
+
+
+
+.titulo__pricipal {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--cenza-escuro);
+    padding: 0.3em 0;
+    
+}
+
+.subtitulo__pricipal {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza-claro);
+}
+
+@media screen and (min-width: 1200px) {
+    .cabecalho {
+        margin-left: 15%;
+    }
+}

@@ -1,0 +1,128 @@
+.botao__mais {
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url('../img/Botão\ flutuante.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    bottom: 15%;
+    right: 5%;
+}
+
+.cabecalho__menu-hamburguer {
+    width: 65px;
+    height: 65px;
+    background-image: url("../img/Botão\ flutuante.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    position: fixed;
+    bottom: 15%;
+    right: 5%;
+}
+
+.container__botao:checked~.container__rotulo>.cabecalho__menu-hamburguer {
+    background-image: url("../img/Botão\ flutuante.svg");
+
+}
+
+.container__botao {
+    display: none;
+}
+.lista-menu {
+    display: none;
+    
+}
+
+.container__botao:checked~.lista-menu {
+    display: block;
+    
+
+}
+
+.lista-menu__item--1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    bottom: 30.5%;
+    right: 5%;
+    
+}
+
+.lista-menu__item--2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    bottom: 23%;
+    right: 5%;
+}
+
+.lista-menu__link1 {
+    display: flex;
+    font-family: "Montserrat";
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--cinza-escuro);
+    text-decoration: none;
+    background-color: var(--branco);
+    border: 2px solid var(--branco);
+    border-radius: 50px;
+    width: 19em;
+    height: 2em;
+    margin: 0 1em;
+}
+
+.lista-menu__link2 {
+    display: flex;
+    font-family: "Montserrat";
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--cinza-escuro);
+    text-decoration: none;
+    background-color: var(--branco);
+    border: 2px solid var(--branco);
+    border-radius: 50px;
+    width: 14em;
+    height: 2em;
+    margin: 0 1em;
+}
+
+.local {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: none;
+    background-image: url('../img/pin\ fab.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}
+
+.video {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: none;
+    background-image: url('../img/camera\ fab.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}
+
+@media screen and (min-width: 1200px) {
+    .botao__mais {
+        display: none;
+    }
+
+    .cabecalho__menu-hamburguer {
+        display: none;
+    }
+}
